@@ -3,9 +3,412 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premier League Standings</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid purple;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: purple;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
     
+    <h1><span style="color: purple;">Premier League Standings - 2023-24</span></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Club</th>
+                <th>MP</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GF</th>
+                <th>GA</th>
+                <th>GD</th>
+                <th>Points</th>
+                <th colspan="5" align="center">Last 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+			<td>Arsenal</td>
+			<td>28</td>
+			<td>20</td>
+			<td>4</td>
+			<td>4</td>
+			<td>70</td>
+			<td>24</td>
+			<td>46</td>
+			<td>64</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+        </tr>
+
+        <tr>
+			<td>2</td>
+			<td>Liverpool</td>
+			<td>28</td>
+			<td>19</td>
+			<td>7</td>
+			<td>2</td>
+			<td>65</td>
+			<td>26</td>
+			<td>39</td>
+			<td>64</td>
+			<td>D</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+		</tr>
+        
+           <tr>
+			<td>3</td>
+			<td>Man City</td>
+			<td>28</td>
+			<td>19</td>
+			<td>6</td>
+			<td>3</td>
+			<td>63</td>
+			<td>28</td>
+			<td>35</td>
+			<td>63</td>
+			<td>D</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+			<td>D</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>Aston Villa</td>
+			<td>29</td>
+			<td>17</td>
+			<td>5</td>
+			<td>7</td>
+			<td>60</td>
+			<td>42</td>
+			<td>18</td>
+			<td>56</td>
+			<td>D</td>
+			<td>L</td>
+			<td>W</td>
+			<td>W</td>
+			<td>W</td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td>Tottenham</td>
+			<td>28</td>
+			<td>16</td>
+			<td>5</td>
+			<td>7</td>
+			<td>59</td>
+			<td>42</td>
+			<td>17</td>
+			<td>53</td>
+			<td>L</td>
+			<td>W</td>
+			<td>W</td>
+			<td>L</td>
+			<td>W</td>
+		</tr>
+
+		<tr>
+			<td>6</td>
+			<td>Man United</td>
+			<td>28</td>
+			<td>15</td>
+			<td>2</td>
+			<td>11</td>
+			<td>39</td>
+			<td>39</td>
+			<td>0</td>
+			<td>47</td>
+			<td>W</td>
+			<td>L</td>
+			<td>L</td>
+			<td>W</td>
+			<td>W</td>
+		</tr>
+
+		<tr>
+			<td>7</td>
+			<td>West Ham</td>
+			<td>29</td>
+			<td>12</td>
+			<td>8</td>
+			<td>9</td>
+			<td>46</td>
+			<td>50</td>
+			<td>-4</td>
+			<td>44</td>
+			<td>D</td>
+			<td>D</td>
+			<td>W</td>
+			<td>W</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>8</td>
+			<td>Brighton</td>
+			<td>28</td>
+			<td>11</td>
+			<td>9</td>
+			<td>8</td>
+			<td>50</td>
+			<td>44</td>
+			<td>6</td>
+			<td>42</td>
+			<td>W</td>
+			<td>L</td>
+			<td>D</td>
+			<td>W</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>9</td>
+			<td>Wolves</td>
+			<td>28</td>
+			<td>12</td>
+			<td>5</td>
+			<td>11</td>
+			<td>42</td>
+			<td>44</td>
+			<td>-2</td>
+			<td>41</td>
+			<td>W</td>
+			<td>L</td>
+			<td>W</td>
+			<td>W</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>10</td>
+			<td>Newcastel</td>
+			<td>28</td>
+			<td>12</td>
+			<td>4</td>
+			<td>12</td>
+			<td>59</td>
+			<td>48</td>
+			<td>11</td>
+			<td>40</td>
+			<td>L</td>
+			<td>W</td>
+			<td>L</td>
+			<td>D</td>
+			<td>W</td>
+		</tr>
+
+		<tr>
+			<td>11</td>
+			<td>Chelsea</td>
+			<td>27</td>
+			<td>11</td>
+			<td>6</td>
+			<td>10</td>
+			<td>47</td>
+			<td>45</td>
+			<td>2</td>
+			<td>39</td>
+			<td>W</td>
+			<td>D</td>
+			<td>D</td>
+			<td>W</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>12</td>
+			<td>Fulham</td>
+			<td>29</td>
+			<td>11</td>
+			<td>5</td>
+			<td>13</td>
+			<td>43</td>
+			<td>44</td>
+			<td>-1</td>
+			<td>38</td>
+			<td>W</td>
+			<td>L</td>
+			<td>W</td>
+			<td>W</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>13</td>
+			<td>Bournemouth</td>
+			<td>28</td>
+			<td>9</td>
+			<td>8</td>
+			<td>11</td>
+			<td>41</td>
+			<td>52</td>
+			<td>-11</td>
+			<td>35</td>
+			<td>W</td>
+			<td>D</td>
+			<td>W</td>
+			<td>L</td>
+			<td>D</td>
+		</tr>
+
+		<tr>
+			<td>14</td>
+			<td>Crystal Palace</td>
+			<td>28</td>
+			<td>7</td>
+			<td>8</td>
+			<td>13</td>
+			<td>33</td>
+			<td>48</td>
+			<td>-15</td>
+			<td>29</td>
+			<td>D</td>
+			<td>L</td>
+			<td>W</td>
+			<td>D</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>15</td>
+			<td>Brentford</td>
+			<td>29</td>
+			<td>7</td>
+			<td>5</td>
+			<td>17</td>
+			<td>41</td>
+			<td>54</td>
+			<td>-13</td>
+			<td>26</td>
+			<td>L</td>
+			<td>L</td>
+			<td>D</td>
+			<td>L</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>16</td>
+			<td>Everton</td>
+			<td>28</td>
+			<td>8</td>
+			<td>7</td>
+			<td>13</td>
+			<td>29</td>
+			<td>39</td>
+			<td>-10</td>
+			<td>5</td>
+			<td>L</td>
+			<td>L</td>
+			<td>D</td>
+			<td>D</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>17</td>
+			<td>Luton Town</td>
+			<td>29</td>
+			<td>5</td>
+			<td>7</td>
+			<td>17</td>
+			<td>43</td>
+			<td>60</td>
+			<td>-18</td>
+			<td>22</td>
+			<td>D</td>
+			<td>L</td>
+			<td>D</td>
+			<td>L</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>18</td>
+			<td>Nottm Forest</td>
+			<td>29</td>
+			<td>6</td>
+			<td>7</td>
+			<td>16</td>
+			<td>35</td>
+			<td>51</td>
+			<td>-16</td>
+			<td>21</td>
+			<td>D</td>
+			<td>L</td>
+			<td>L</td>
+			<td>L</td>
+			<td>W</td>
+		</tr>
+
+		<tr>
+			<td>19</td>
+			<td>Burnley</td>
+			<td>29</td>
+			<td>4</td>
+			<td>5</td>
+			<td>20</td>
+			<td>29</td>
+			<td>63</td>
+			<td>-34</td>
+			<td>17</td>
+			<td>W</td>
+			<td>D</td>
+			<td>L</td>
+			<td>L</td>
+			<td>L</td>
+		</tr>
+
+		<tr>
+			<td>20</td>
+			<td>Sheffield United</td>
+			<td>28</td>
+			<td>3</td>
+			<td>5</td>
+			<td>20</td>
+			<td>24</td>
+			<td>74</td>
+			<td>-50</td>
+			<td>14</td>
+			<td>D</td>
+			<td>L</td>
+			<td>L</td>
+			<td>L</td>
+			<td>W</td>
+		</tr>
+        </tbody>
+    </table>
 </body>
+
+<!-- <img src="/home/hiccup/Downloads/Premier_League_Logo.svg" alt="Premier League Logo"> -->
+
 </html>
